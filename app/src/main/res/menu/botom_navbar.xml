@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/upcoming"
+        android:icon="@drawable/baseline_calendar_month_24"
+        android:title="@string/upcoming"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/finished"
+        android:icon="@drawable/baseline_assignment_turned_in_24"
+        android:title="@string/finished"
+        app:showAsAction="always" />
+</menu>
